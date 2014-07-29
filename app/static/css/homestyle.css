@@ -1,0 +1,338 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+
+
+#headdiv {
+  background-color: black;
+  height: 100px;
+  position: absolute;
+  width: 1265px;
+  opacity: 0.9;
+}
+
+#topsymbol {
+  height: 90px;
+  width: 90px;
+  margin-left: 595px;
+  margin-top:-15px;
+}
+nav {
+  margin-top: 105px;
+  position: absolute;
+  margin-left: 35px;
+}
+a {
+  padding-left: 110px;
+  padding-right: 110px;
+  color: white;
+  background-color: black;
+  opacity: 0.9;
+  text-decoration: none;
+}
+@-webkit-keyframes wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+  }
+
+  @keyframes wobble-vertical {
+    16.65% {
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.wobble-vertical {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.wobble-vertical:hover, .wobble-vertical:focus, .wobble-vertical:active {
+  -webkit-animation-name: wobble-vertical;
+  animation-name: wobble-vertical;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+body {
+    background-image: url(/img/smoke);
+}
+
+.Linkin {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 445px;
+  height: 250px;
+  width: 400px;
+}
+
+.video1 {
+  position: absolute;
+  margin-top: 425px;
+  margin-left: 360px;
+
+}
+
+.footer {
+  margin-left:-8px;
+  margin-top: 842px;
+  position: absolute;
+  background-color: black;
+  height: 50px;
+  width: 1280px;
+}
+
+.about {
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-top:250px;
+  margin-left:100px;
+  margin-right: 100px;
+  z-index: 2;
+}
+
+.aboutheader {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 440px;
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+}
+
+.aboutfooter {
+  background-color: black;
+  position: absolute;
+  height: 50px;
+  width: 1280px;
+  margin-top: 600px;
+  margin-left: -8px;
+  opacity: 0.8;
+  font-color: white;
+}
+
+#bandbench {
+  height: 400px;
+  width: 550px;
+  margin-top: 348px;
+  margin-left: 650px;
+  position: absolute;
+  z-index: 1;
+}
+
+#headerAlbums {
+  font-family: 'Oleo Script', cursive;
+  margin-top: 150px;
+  margin-left: 500px;
+  position: absolute;
+  font-size: 100px
+}
+
+#hybrid {
+  height: 150px;
+  width: 150px;
+  margin-top: 280px;
+  margin-left: 50px;
+  position: absolute;
+}
+
+#meteora {
+  height: 150px;
+  width 150px;
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 250px;
+
+}
+
+#mtm {
+  height: 150px;
+  width 150px;
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 450px;
+}
+
+#ts {
+  height: 150px;
+  width 150px;
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 650px;
+}
+
+#living {
+  height: 150px;
+  width 150px;
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 850px;
+
+}
+
+#hunting {
+  height: 150px;
+  width 150px;
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 1050px;
+}
+#New {
+  height: 75px;
+  width: 75px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 279px;
+  margin-left: 1127px;
+}
+
+#p1 {
+  color: black;
+  position: absolute;
+  margin-top: 435px;
+  margin-left: 52px;
+  font-family: 'Lato', sans-serif;
+}
+
+#p2 {
+  color:black;
+  position: absolute;
+  margin-top: 435px;
+  margin-left: 270px;
+  font-family: 'Lato', sans-serif;
+}
+
+#p3 {
+  color:black;
+  position: absolute;
+  margin-top: 434px;
+  margin-left: 430px;
+  font-family: 'Lato', sans-serif;
+}
+
+#p4 {
+  color:black;
+  position: absolute;
+  margin-top: 434px;
+  margin-left: 645px;
+  font-family: 'Lato', sans-serif;
+}
+
+#p5 {
+  color:black;
+  position: absolute;
+  margin-top: 434px;
+  margin-left: 860px;
+  font-family: 'Lato', sans-serif;
+}
+
+#p6 {
+  color:black;
+  position: absolute;
+  margin-top: 434px;
+  margin-left: 1040px;
+  font-family: 'Lato', sans-serif;
+}
+
+#mer {
+  height: 400px;
+  width: 265px;
+  margin-top: 250px;
+  position: absolute;
+  z-index: 1;
+}
+
+#mersmall {
+  height: 450px;
+  width:350px;
+  position: absolute;
+  margin-left: 920px;
+  margin-top: 150px;
+  z-index: 1;
+}
+
+#tourlink {
+  height: 300x;
+  width:600px;
+  position: absolute;
+  margin-top: 155px;
+  margin-left: 320px;
+}
+
+#tourdiv {
+  height: 420px;
+  width: 700px;
+  position: absolute;
+  margin-top: 135px;
+  margin-left: 265px;
+  border: 3px solid black;
+}
+
+#tourfooter {
+  background-color: black;
+  position: absolute;
+  height: 50px;
+  width: 1280px;
+  margin-top: 600px;
+  margin-left: -8px;
+  z-index: 2;
+}
+
+#button {
+  z-index: 2;
+}
