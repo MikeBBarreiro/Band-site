@@ -27,6 +27,6 @@ app.get('/tour', function(req,res){
   res.render('tour');
 });
 
-app.listen(3000, function(){
-  console.log('Express.js is listening..');
+app.listen(process.env.PORT, function(){
+  console.log('Linkin Park is jamming on Port!');
 });
