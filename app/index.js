@@ -27,6 +27,6 @@ app.get('/tour', function(req,res){
   res.render('tour');
 });
 
-app.listen(process.env.PORT, function(){
+app.listen(3000, function(){
   console.log('Linkin Park is jamming on Port!');
 });
