@@ -4,25 +4,53 @@
     <meta charset="utf-8">
     <title>Linkin Park</title>
     <link rel="stylesheet" href="/css/homestyle.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="/js/bootstrap.min.js"></script>
   </head>
   <body>
     <div id="headdiv">
-      <h1></h1>
       <img id="topsymbol" src="/img/linking_park_symbol">
     </div>
-    <nav>
-      <a class="wobble-vertical" href="/">Home</a>
-      <a class="wobble-vertical" href="/about">About Linkin Park</a>
-      <a class="wobble-vertical" href="/disography">Disography</a>
-      <a class="wobble-vertical" href="/tour">Tour Dates</a>
-    </nav>
-    <img class="Linkin" src="/img/Linkinpark_name">
+    <div class="row">
+      <div class="col-xs-12">
+        <nav class="navbar navbar-default", role="navigation">
+          <div class="containter-fluid">
+            <div class="navbar-header">
+              <button type="button", class="navbar-toggle", data-toggle="collapse", data-target="#bs-example-navbar-collapse-1"></button>
+                <span class="sr-only"> Toggle navigation
+                </span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </div>
+            <div class="collapse navbar-collapse col-md-12", id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li> <a class="wobble-vertical" href="/"> Home </a></li>
+                <li> <a class="wobble-vertical" href="/about"> About Linkin Park </a><li>
+                <li> <a class="wobble-vertical" href="/disography"> Disography </a></li>
+                <li> <a class="wobble-vertical" href="/contact"> Tour Dates </a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-4"></div>
+      <div class="col-xs-4">
+        <img class="Linkin" src="/img/Linkinpark_name">
+      </div>
+      <div class="col-xs-4"></div>
+    </div>
     <iframe class="video1" width="560" height="315" src="//www.youtube.com/embed/Nym1P-BO_ws" frameborder="0" allowfullscreen></iframe>
     <div class="footer">
-      <footer>
-        <small>(c)2014 <strong>NSS <em>Cohort</em> 6</strong></small>
-      </footer>
+      <div class="col-xs-4"></div>
+      <div class="col-xs-4">
+        <footer>
+          <small>(c)2014 <strong>NSS <em>Cohort</em> 6</strong></small>
+        </footer>
+      </div>
+      <div class="col-xs-4"></div>
     </div>
   </body>
 </html>
-
